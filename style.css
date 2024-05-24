@@ -1,0 +1,34 @@
+.body {
+    background: url(https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148639325.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.weather-card {
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 4px 4px 4px 4px rgb(0, 110, 255);
+    border-radius: 10px;
+    padding: 20px;
+}
+.weather-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.imagedropshadow {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.text {
+    color: blue;
+}
+
+@media screen and (min-width: 310px) and (max-width: 530px) {
+    .text {
+        font-size: 1.5rem;
+    }
+}
